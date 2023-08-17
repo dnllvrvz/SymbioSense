@@ -15,10 +15,6 @@ int myoPin = A4;                      //OK myoware - EMG sensor
 const byte interruptPin = 12;         //OK galvanometer input
 
 //atmosphere sensor
-#define BME_SCK 13
-#define BME_MISO 12
-#define BME_MOSI 11
-#define BME_CS 10
 #define SEALEVELPRESSURE_HPA (1013.25)
 Adafruit_BME680 bme; // I2C
 
